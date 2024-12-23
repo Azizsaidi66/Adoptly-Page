@@ -1,0 +1,122 @@
+:root{
+  --background-gradient: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.cont2 {
+  height: auto;
+  width: 60%;
+  border-radius: 2rem;
+  background: var(--background-gradient);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  animation: appear 1s;
+}
+
+.form-donation{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -1.5rem;
+}
+
+.form-donation input,.form-donation select{
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: solid 2px #eee;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.stps{
+  font-size: xx-large;
+  animation: bounce 1s infinite;
+}
+
+.form-donation input:focus,.form-donation select:focus{
+  border-color: #fcb69f;
+  outline: none;
+  transition: 0.3s;
+  caret-color: crimson;
+}
+
+h3{
+  color: #2d3436;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+label{
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: large;
+}
+
+.form{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.form-container{
+  padding-bottom: 4rem;
+  background: linear-gradient(to bottom, #ffffff, #d8f0ff);
+  height: auto;
+  width: 70%;
+  margin: 1rem auto 3rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+#b2{
+  min-width: 20rem;
+  min-height: 2rem;
+  padding: 10px;
+  color: white;
+  background-color:#ff6b6b;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+#b2:hover{
+  color: #ff6b6b;
+  background-color:rgb(5, 5, 5);
+  transform: scale(1.1);
+  transition: 0.5s;
+  border: #ff6b6b;
+}
+
+@keyframes bounce {
+  0%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-6px);}
+}
+
+.form-donation p{
+  color: red;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: small;
+  margin-top: 0;
+  margin-left: 5px;
+}

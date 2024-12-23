@@ -1,0 +1,214 @@
+.log-in-cont {
+  z-index: 10;
+  width: 25%;
+  height: 75vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -35vh;
+  margin-left: -12.5%;
+  background: linear-gradient(to bottom, #ffffff, #d8f0ff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  animation: appear 0.3s;
+}
+
+.sign-up-cont{
+  z-index: 10;
+  width: 30%;
+  height: 90vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -45vh;
+  margin-left: -15%;
+  background: linear-gradient(to bottom, #ffffff, #d8f0ff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  animation: appear 0.3s;
+}
+
+.logform {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: -2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  position: relative;
+}
+
+.login-form label,
+.login-form input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+}
+
+.login-form input[type=text], input[type=email], input[type=password] {
+  height: 2.5rem;
+  margin-bottom: 10px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  font-size: medium;
+  padding-left: 5px;
+}
+
+.login-form input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  border-color: #fcb69f;
+  outline: none;
+  caret-color: crimson;
+  transition: 0.3s;
+}
+
+.login-form li{
+  list-style: none;
+  align-self: self-end;
+  margin-top: 5px;
+}
+
+.login-form li a{
+  color: black;
+  text-decoration: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #ff6b6b;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  transition: 0.3s;
+  border: 1px solid #ff6b6b;
+}
+
+.login-form button:hover {
+  color: #ff6b6b;
+  background-color: white;
+}
+
+.social-message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: #ff6b6b;
+}
+
+.social-message .message {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--mainblack);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+.logsc{
+  width: 85%;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-between;
+  margin: 1.1rem auto;
+}
+
+.social-icons2{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+}
+
+.social-icons li{
+  list-style: none;
+}
+
+.social-icons li a{
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--mainblack);
+  font-size: x-large;
+}
+
+.social-icons li a:hover{
+  color: #ff6b6b;
+  transition: 0.3s;
+}
+
+.signup {
+  font-size: 1rem;
+  color: rgba(156, 163, 175, 1);
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sn{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: small;
+  text-decoration: none;
+}
+
+.sn:hover{
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+
+.sexe{
+  display: flex;
+  gap: 0.3rem;
+}
+
+.sexe input{
+  font-size: 10px;
+}
+
+#sexe{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.birth{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.birth select{
+  width: 5.7rem;
+  height: 1.8rem;
+  border: 2px solid #eee;
+  transition: 0.3s;
+}
+
+.birth select:focus{
+  outline: none;
+  border-color: #fcb69f;
+}
